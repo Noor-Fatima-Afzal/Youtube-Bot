@@ -1,0 +1,11 @@
+[server]
+enableXsrfProtection = false
+```
+
+## Most Important: Add `packages.txt` for system dependencies
+
+However, the **real solution** for Streamlit Cloud is to create a `packages.txt` file that installs Chromium at the system level:
+
+**packages.txt:**
+```
+chromium
